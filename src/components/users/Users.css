@@ -1,0 +1,37 @@
+.users {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 60vw;
+  height: 100vh;
+}
+
+.user {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0px;
+}
+
+.list li {
+  margin: 5px 0px;
+}
+
+.list li span {
+  font-weight: 600;
+}
