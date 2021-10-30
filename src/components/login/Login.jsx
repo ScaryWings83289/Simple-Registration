@@ -93,7 +93,7 @@ const Login = () => {
         url: 'https://expressjwtauth.herokuapp.com/users/login',
         data: JSON.stringify(data),
         headers: {
-          'Content-Type': 'application/jso',
+          'Content-Type': 'application/json',
           'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Headers': 'append,delete,entries,foreach,get,has,keys,set,values,Authorization',
         },
